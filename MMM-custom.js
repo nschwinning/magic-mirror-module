@@ -36,16 +36,16 @@ Module.register("MMM-custom", {
 
         const firstRow = document.createElement('tr');
 
-        const firstLineCol = document.createElement('th');
+        const firstLineCol = document.createElement('td');
         firstLineCol.innerText = '107';
 
-        const firstPlatformCol = document.createElement('th');
+        const firstPlatformCol = document.createElement('td');
         firstPlatformCol.innerText = '5';
 
-        const firstDestinationCol = document.createElement('th');
+        const firstDestinationCol = document.createElement('td');
         firstDestinationCol.innerText = 'Ägypten Hbf';
 
-        const firstDepartureCol = document.createElement('th');
+        const firstDepartureCol = document.createElement('td');
         firstDepartureCol.innerText = '8 Min';
 
         firstRow.appendChild(firstLineCol);
