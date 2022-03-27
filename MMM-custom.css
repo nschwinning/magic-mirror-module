@@ -1,0 +1,19 @@
+.mmm-custom-table * {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.mmm-custom-table tr.border-bottom th {
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.mmm-custom-table *:first-child {
+    padding-left: 0;
+}
+.mmm-custom-table .delay {
+    color: red;
+}
+
+.MMM-custom img{
+    filter: grayscale(100%);
+}
